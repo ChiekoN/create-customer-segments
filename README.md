@@ -7,7 +7,7 @@ In this project, I analyzed a dataset that contains various customers' annual sp
 
 I first explored the data by selecting a small subset to sample and determine if any product categories highly correlate with one another. Afterwards, I preprocessed the data by scaling each product category and then identifying (and removing) unwanted outliers. With the good, clean customer spending data, I applied PCA transformations to the data and implement clustering algorithms to segment the transformed customer data.
 I researched and compared two algorithms, K-Means clustering and Gaussian Mixture Model clustering, then I chose the Gaussian Mixture Model for my clustering.
-Finally, I compared the segmentation found with an additional labeling and consider ways this information could assist the wholesale distributor with future service changes.
+Finally, I compared the segmentation found with an additional labeling and considered ways this information could assist the wholesale distributor with future service changes.
 
 ### Setting
 
@@ -16,19 +16,21 @@ A wholesale distributor recently tested a change to their delivery method for so
 My goal is to find out what types of customers they have to help them make better, more informed business decisions in the future. By using unsupervised learning techniques, I will see if any similarities exist
 between customers, and how to best segment customers into distinct categories.
 
-### Things I learned
+### Techniques
 
-- How to apply preprocessing techniques such as feature scaling and outlier detection.
-  - Visualizing the distribution by scatterplots
-  - Visualizing the correlation between features by a heatmap
-  - Applying logarithmic scaling
+- preprocessing techniques such as feature scaling and outlier detection
+  - visualizing the distribution by scatterplots
+  - visualizing the correlation between features by a heatmap
+  - applying logarithmic scaling
   - Tukey's Method for identifying outliers
-- How to interpret data points that have been scaled, transformed, or reduced from PCA.
-- How to analyze PCA dimensions and construct a new feature space.
-- How to optimally cluster a set of data to find hidden patterns in a dataset.
+- interpreting data points that have been scaled, transformed, or reduced from PCA
+- analyzing PCA dimensions and constructing a new feature space
+- data clustering using unspervised learning techniques
   - K-Means clustering
   - Gaussian Mixture Model clustering
-- How to assess information given by cluster data and use it in a meaningful way.
+  - silhouette score
+- assessment and use of the clustering
+  - A/B test
 
 
 ### Libraries
