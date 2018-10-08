@@ -66,3 +66,8 @@ Note (m.u.) is shorthand for *monetary units*.
  6. `Delicatessen`: annual spending (m.u.) on and delicatessen products (Continuous);
  7. `Channel`: {Hotel/Restaurant/Cafe - 1, Retail - 2} (Nominal)
  8. `Region`: {Lisbon - 1, Oporto - 2, or Other - 3} (Nominal)
+
+
+ ### Note
+
+ This project has been done as a part of Machine Learning Engineer Nanodegree program, at [Udacity](https://www.udacity.com/).
